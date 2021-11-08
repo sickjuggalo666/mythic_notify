@@ -1,5 +1,5 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
-
+fx_version 'cerulean'
+game 'gta5'
 name 'Mythic Framework Notification System'
 author 'Alzar - https://github.com/Alzar'
 version 'v1.0.3'
@@ -19,6 +19,9 @@ client_scripts {
 }
 
 exports {
+	'SendAlert',
+	'SendUniqueAlert',
+	'PersistentAlert',
 	'DoShortHudText',
 	'DoHudText',
 	'DoLongHudText',
